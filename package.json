@@ -1,0 +1,23 @@
+{
+  "name": "awsiotbasics",
+  "version": "1.0.0",
+  "description": "A Simple Guide to AWS IoT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jawadhasan/awsiotbasics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jawadhasan/awsiotbasics/issues"
+  },
+  "homepage": "https://github.com/jawadhasan/awsiotbasics#readme",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.11"
+  }
+}
