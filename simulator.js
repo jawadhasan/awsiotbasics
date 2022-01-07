@@ -33,9 +33,9 @@ while (counter < driveTime) {
     let message = {
         rideId: rideId,
         temperature: 77.2 + 0.02 * counter,
-        timestamp: Math.floor(new Date(endTime.getTime() - (driveTime - counter) * 60 * 1000).getTime()),
-        location_lat: currentCoordinates.lat,
-        location_lon: currentCoordinates.lon
+        ts: Math.floor(new Date(endTime.getTime() - (driveTime - counter) * 60 * 1000).getTime()),
+        lat: currentCoordinates.lat,
+        lon: currentCoordinates.lon
     };
     device.publish('truck_sensor', JSON.stringify(message));
 }
