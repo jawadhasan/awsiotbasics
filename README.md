@@ -1,11 +1,10 @@
 # AWS IoT Basics
 
-A Simple Guide to AWS IoT.
+A Simple Guide to AWS IoT.    
 
-https://hexquote.com
 
-## Requirements
+## Article
 
-* [nodejs](https://nodejs.org)
+https://hexquote.com/aws-iot-basics/
 
 
